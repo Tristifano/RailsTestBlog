@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :chickens
   resources :farmers
   resources :farms
   resources :goats
